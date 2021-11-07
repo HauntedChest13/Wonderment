@@ -24,12 +24,12 @@ public class ConfiguredFeatureInit {
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
                     BlockInit.DRENCHSTONE.getDefaultState(),
-                    12)) // Vein size
+                    30)) // Vein size
             .range(new RangeDecoratorConfig(
                     // You can also use one of the other height providers if you don't want a uniform distribution
                     UniformHeightProvider.create(YOffset.aboveBottom(16), YOffset.fixed(32)))) // Inclusive min and max height
             .spreadHorizontally()
-            .repeat(60); // Number of veins per chunk
+            .repeat(30); // Number of veins per chunk
 
     private static ConfiguredFeature<?, ?> ORE_DUNESTONE_OVERWORLD = Feature.ORE
             .configure(new OreFeatureConfig(
@@ -45,7 +45,7 @@ public class ConfiguredFeatureInit {
 
     public static void init(){
         RegistryKey<ConfiguredFeature<?, ?>> oreDrenshstoneOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
-                new Identifier(WondermentMod.MOD_ID, "ore_drenshstone_overworld"));
+                new Identifier(WondermentMod.MOD_ID, "ore_drenchstone_overworld"));
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreDrenshstoneOverworld.getValue(), ORE_DRENCHSTONE_OVERWORLD);
         BiomeModifications.addFeature(BiomeSelectors
                 .includeByKey(BiomeKeys.OCEAN,BiomeKeys.COLD_OCEAN,BiomeKeys.DEEP_COLD_OCEAN

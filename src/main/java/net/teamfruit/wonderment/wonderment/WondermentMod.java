@@ -1,5 +1,6 @@
 package net.teamfruit.wonderment.wonderment;
 
+import net.teamfruit.wonderment.wonderment.core.BiomeInit;
 import net.teamfruit.wonderment.wonderment.core.BlockInit;
 import net.teamfruit.wonderment.wonderment.core.ConfiguredFeatureInit;
 import net.teamfruit.wonderment.wonderment.core.ItemInit;
@@ -12,7 +13,7 @@ public class WondermentMod implements ModInitializer {
     @Override
     public void onInitialize() {
 
-
+        BiomeInit.init();
         BlockInit.init();
         ItemInit.init();
         ConfiguredFeatureInit.init();
