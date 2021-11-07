@@ -43,10 +43,10 @@ public class BlockInit {
     public static final Block DUNESTONE_BRICKS = register("dunestone_bricks",
             new Block(AbstractBlock.Settings.copy(DUNESTONE)), (settings) -> settings.group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final Block DUNESTONE_BRICK_STAIRS = register("dunestone_bricks_stairs",
+    public static final Block DUNESTONE_BRICK_STAIRS = register("dunestone_brick_stairs",
             new ModStairs(DUNESTONE_BRICKS.getDefaultState(), AbstractBlock.Settings.copy(DUNESTONE)), (settings) -> settings.group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final Block DUNESTONE_BRICK_SLAB = register("dunestone_bricks_slab",
+    public static final Block DUNESTONE_BRICK_SLAB = register("dunestone_brick_slab",
             new SlabBlock(AbstractBlock.Settings.copy(DUNESTONE)), (settings) -> settings.group(ItemGroup.BUILDING_BLOCKS));
 
     public static final Block CRACKED_DUNESTONE_BRICKS = register("cracked_dunestone_bricks",
@@ -85,11 +85,11 @@ public class BlockInit {
             new Block(AbstractBlock.Settings.copy(DRENCHSTONE)),
             (settings) -> settings.group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final Block DRENCHSTONE_BRICK_STAIRS = register("drenchstone_bricks_stairs",
+    public static final Block DRENCHSTONE_BRICK_STAIRS = register("drenchstone_brick_stairs",
             new ModStairs(DRENCHSTONE_BRICKS.getDefaultState(), AbstractBlock.Settings.copy(DRENCHSTONE)),
             (settings) -> settings.group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final Block DRENCHSTONE_BRICKS_SLAB = register("drenchstone_bricks_slab",
+    public static final Block DRENCHSTONE_BRICK_SLAB = register("drenchstone_brick_slab",
             new SlabBlock(AbstractBlock.Settings.copy(DRENCHSTONE)),
             (settings) -> settings.group(ItemGroup.BUILDING_BLOCKS));
 

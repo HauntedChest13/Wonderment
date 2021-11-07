@@ -12,6 +12,7 @@ public class WondermentMod implements ModInitializer {
     @Override
     public void onInitialize() {
 
+
         BlockInit.init();
         ItemInit.init();
         ConfiguredFeatureInit.init();

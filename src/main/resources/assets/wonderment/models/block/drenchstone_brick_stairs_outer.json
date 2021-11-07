@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "wonderment:block/drenchstone_bricks",
+    "top": "wonderment:block/drenchstone_bricks",
+    "side": "wonderment:block/drenchstone_bricks"
+  }
+}
