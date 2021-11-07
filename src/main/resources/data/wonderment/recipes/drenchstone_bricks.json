@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "wonderment:polished_drenchstone"
+        }
+    },
+    "result": {
+        "item": "wonderment:drenchstone_bricks",
+        "count": 4
+    }
+}

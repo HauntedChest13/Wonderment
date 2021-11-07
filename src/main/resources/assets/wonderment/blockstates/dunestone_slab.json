@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wonderment:block/dunestone_slab"
+    },
+    "type=double": {
+      "model": "wonderment:block/dunestone"
+    },
+    "type=top": {
+      "model": "wonderment:block/dunestone_slab_top"
+    }
+  }
+}

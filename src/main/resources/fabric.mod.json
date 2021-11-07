@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "wonderment",
+  "version": "${version}",
+
+  "name": "Wonderment",
+  "description": "Wonderous new additions to the world.",
+  "authors": [
+    "DigitalPear",
+    "HauntedChest"
+  ],
+  "contact": {},
+
+  "license": "Apache-2.0",
+  "icon": "assets/wonderment/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.teamfruit.wonderment.wonderment.client.WondermentModClient"
+    ],
+    "main": [
+      "net.teamfruit.wonderment.wonderment.WondermentMod"
+    ]
+  },
+
+          "mixins": [
+        "wonderment.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=0.12.5",
+              "fabric": "*",
+          "minecraft": "1.17.1"
+  }
+}

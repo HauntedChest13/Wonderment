@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "wonderment:block/dunestone",
+    "top": "wonderment:block/dunestone",
+    "side": "wonderment:block/dunestone"
+  }
+}

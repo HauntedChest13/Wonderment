@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wonderment:block/drenchstone_slab"
+    },
+    "type=double": {
+      "model": "wonderment:block/drenchstone"
+    },
+    "type=top": {
+      "model": "wonderment:block/drenchstone_slab_top"
+    }
+  }
+}

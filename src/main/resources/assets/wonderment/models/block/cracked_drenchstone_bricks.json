@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "wonderment:block/cracked_drenchstone_bricks"
+  }
+}

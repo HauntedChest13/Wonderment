@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "wonderment:block/drenchstone",
+    "top": "wonderment:block/drenchstone",
+    "side": "wonderment:block/drenchstone"
+  }
+}
