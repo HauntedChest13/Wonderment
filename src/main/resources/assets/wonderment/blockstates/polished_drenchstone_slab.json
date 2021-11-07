@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wonderment:block/polished_drenchstone_slab"
+    },
+    "type=double": {
+      "model": "wonderment:block/polished_drenchstone"
+    },
+    "type=top": {
+      "model": "wonderment:block/polished_drenchstone_slab_top"
+    }
+  }
+}
