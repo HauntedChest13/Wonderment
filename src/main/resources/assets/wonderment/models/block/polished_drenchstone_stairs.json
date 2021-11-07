@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wonderment:block/polished_drenchstone",
+    "top": "wonderment:block/polished_drenchstone",
+    "side": "wonderment:block/polished_drenchstone"
+  }
+}
